@@ -11,6 +11,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     // vue解决跨域问题，后端不需要设置
+    // 测试提交
     proxyTable: {
       '/api': {
         target: 'http://127.0.0.1:9999',//后端接口地址
